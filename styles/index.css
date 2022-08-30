@@ -58,6 +58,11 @@ p {
 
 }
 
+img {
+    border-radius: 50%;
+
+}
+
 footer {
         color:rgba(13, 1, 19, 0.724);
         font-size: 20px;
