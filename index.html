@@ -152,7 +152,7 @@
     <section class="Submitform">
         
         <div class="Submitform__items Submitform__items--styles">
-            <div class="submitform__text--H3"><h3>Submissions</h3></div>
+            <div class="submitform__text--H3"><h3>Dream Journal Submissions</h3></div>
             <form action="">
                 <div class="Submitform__name Submitform__name--styles">
                     <label for="name">Name:</label>
@@ -160,9 +160,25 @@
                 </div>
                 <div class="Submitform__dreamtext Submitform__dreamtext--styles">
                         <label for="text">Dream Journal:</label>
-                        <textarea class="inputtext" name="dream" id="dream-content" 
+                        <textarea class="inputtext" name="dream" id="dream-content"
                         placeholder="Descripe your dream, please include as much 
-                        detail as possible" cols="10" rows="2"></textarea>
+                        detail as possible" cols="40" rows="5"></textarea>
+                </div>
+
+                <div class="Submitform__dropmenu">
+                    <label for="dropmenu">Dream type:</label>
+                    <select class="selector__text" name ="Dream type" id="selecter">
+                        <option value ="Reoccuring-Dream">Reocurring Dream</option>
+                        <option value ="Nightmare">Nightmare</option>
+                        <option value ="Adventure-Dream">Adventure Dream</option>
+                        <option value ="Lucid-Dream">Lucid Dream</option>
+                        <option value ="Flying-Dream">Flying Dream</option>
+                        <option value ="None">None of the above</option>
+                    </select>
+                </div>
+                <div class="Submitform__Checkbox Submitform__Checkbox--styles">
+                    <label for="checkbox">I would like to remain anonymous!</label>
+                    <input class="inputtext inputtext__checkbox--tick" type="checkbox" checked id="checkbox">
                 </div>
                 <div class="Submitform__email Submitform__email--styles">
                         <label for="email">Email:</label>
@@ -170,16 +186,13 @@
                 </div>          
                 <div class="Submitform__password Submitform__password--styles">
                         <label for="password">Choose password:</label>
-                        <input class="inputtext" type="password" id="password" placeholder="keep it secrect, keep it safe">
+                        <input class="inputtext" type="password" id="password" placeholder="keep it secrect">
                 </div>
                 <div class="Submitform__clickbutton">
                         <input class="Submitform__clickbutton--styles" type="button" value="Submit Dream">
-                </div>   
-            </form>
-        </div>
+                </div>
 
-        <div class="comingsoon">
-            <p>*Coming soon! Audio submissions to the website will be available once I become more skilled with databases</p>
+            </form>
         </div>
     </section>
 </main>
